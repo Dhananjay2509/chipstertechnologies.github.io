@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    
+}
+.header1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.header2{
+    padding-left:15px ;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.187);
+}
+
+.header2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.cardsection{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+    
+}
+
+.card{
+    height: 180px;
+    border-radius: 15px;
+
+}
+
+.cardsection2{
+    border: 2px solid rgba(35, 228, 35, 0.916);
+}
+/* ------------------------------------------------------CARD1---------------------------------------- */
+.m1header,.m2header,.m3header,.m4header,.m5header,.m6header{
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 146px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.m1header h2,.m2header h2,.m3header h2,.m4header h2,.m5header h2,.m6header h2{
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+
+.m1status,.m2status,.m3status,.m4status,.m5status,.m6status{
+    /* background-color: rgba(255, 77, 0, 0.22); */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.505);
+    border-radius: 13px;
+    width: 100px;
+    grid-column-end: -1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.m1performance,.m2performance,.m3performance,.m4performance,.m5performance,.m6performance{
+    border-bottom: 1px dashed black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 146px;
+    
+}
+
+.performance1info,.performance2info,.performance3info,.performance4info,.performance5info,.performance6info{
+   padding: 10px 0 10px 20px;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.839);
+}
+
+.performance1percent,.performance2percent,.performance3percent,.performance4percent,.performance5percent,.performance6percent{
+    padding: 10px 0 10px 30px;
+}
+
+/* ---------------------------------------- */
+
+
+.m1runningsince,.m2pausedsince,.m3stoppedsince,.m4runningsince,.m5runningsince,.m6runningsince{
+    border-bottom: 1px dashed black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 146px;
+}
+
+.runningsince1info,.pausedsince2info,.stoppedsince3info,.runningsince4info,.runningsince5info,.runningsince6info{
+   padding: 10px 0 10px 20px;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.839);
+}
+
+.runningsince1time,.pausedsince2time,.stoppedsince3time,.runningsince4time,.runningsince5time,.runningsince6time{
+    padding: 10px 0 10px 30px;
+}
+
+
+/* -------------------- */
+.m1partsproduced,.m2partsproduced,.m3partsproduced,.m4partsproduced,.m5partsproduced,.m6partsproduced{
+    /* border-bottom: 1px dashed black; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 146px;
+}
+
+.partsproduced1info,.partsproduced2info,.partsproduced3info,.partsproduced4info,.partsproduced5info,.partsproduced6info{
+   padding: 10px 0 10px 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.839);
+}
+
+.partsproduced1time,.partsproduced2time,.partsproduced3time,.partsproduced4time,.partsproduced5time,.partsproduced6time{
+    padding: 10px 0 10px 30px;
+}
+
+/* ------------------------------------------------------------CARD2-------------------------------------------- */
+
+@media screen and (max-width:500px){
+
+    .card{
+        height: 18rem;
+        border-radius: 15px;
+    
+    }
+    
+    .cardsection{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        gap: 5px;
+    }
+    .header1{
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        text-align: center;
+        
+    }
+    .header1 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.611);
+        font-size: 25px;
+    }
+    .header2{
+        padding-left:10px ;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.187);
+        text-align: center;
+    }
+    
+    .header2 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.611);
+        font-size: 25px;
+    }
+    .m1header,.m2header,.m3header,.m4header,.m5header,.m6header{
+    
+        gap: 146px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 15px;
+        height: 20%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+    .m1header h2,.m2header h2,.m3header h2,.m4header h2,.m5header h2,.m6header h2{
+        font-size: 80%;
+    }
+
+}
